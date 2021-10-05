@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# By CTechDidik
+# By LeadVPN
 # ==================================================
 
 # initialisasi var
@@ -80,8 +80,8 @@ sed -i $MYIP2 /etc/openvpn/client-udp-2200.ovpn;
 
 # Buat config client SSL
 cat > /etc/openvpn/client-tcp-ssl.ovpn <<-END
-############# SAMVPN ##############
-####### TELEGRAM : @sam_sfx #######
+############# LEADVPN ##############
+####### TELEGRAM : @rudy3126 #######
 client
 dev tun
 proto tcp

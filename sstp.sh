@@ -25,10 +25,10 @@ touch /var/lib/premium-script/data-user-sstp
 country=MY
 state=Malaysia
 locality=Malaysia
-organization=ctechdidik.xyz
-organizationalunit=ctechdidik.xyz
-commonname=ctechdidik.xyz
-email=admin@ctechdidik.xyz
+organization=budakladang.xyz
+organizationalunit=budakladang.xyz
+commonname=budakladang.xyz
+email=admin@budakladang.xyz
 
 #install sstp
 apt-get install -y build-essential cmake gcc linux-headers-`uname -r` git libpcre3-dev libssl-dev liblua5.1-0-dev ppp

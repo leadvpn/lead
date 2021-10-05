@@ -1,15 +1,16 @@
 #!/bin/bash
+echo ''
 clear
 echo ''
-echo '     _     _____    _    ______     ______  _   _  '
-echo '    | |   | ____|  / \  |  _ \ \   / /  _ \| \ | | '
-echo '    | |   |  _|   / _ \ | | | \ \ / /| |_) |  \| | '
-echo '    | |___| |___ / ___ \| |_| |\ V / |  __/| |\  | '
-echo '    |_____|_____/_/   \_\____/  \_/  |_|   |_| \_| '
+echo '         _     _____    _    ______     ______  _   _  '
+echo '        | |   | ____|  / \  |  _ \ \   / /  _ \| \ | | '
+echo '        | |   |  _|   / _ \ | | | \ \ / /| |_) |  \| | '
+echo '        | |___| |___ / ___ \| |_| |\ V / |  __/| |\  | '
+echo '        |_____|_____/_/   \_\____/  \_/  |_|   |_| \_| '
 echo ''
-echo '         	        UNLIMITED SEGALANYA! '
-echo '                         Telegram                           '
-echo '                  Telegram LeadVPN @rudy3126                '
+echo '         	          UNLIMITED SEGALANYA! '
+echo '                          Telegram                           '
+echo '                  Telegram LEADVPN @rudy3126                  '
 echo ''
 echo ''
 echo '                       Tunggu 5 Saat!                       '
@@ -41,7 +42,7 @@ echo '                            ...                           '
 echo '        Anda Tidak Dibenarkan Menggunakan Script ini!     '
 echo '                            ...                           '
 echo '    Hubungi Saya di Telegram Untuk Mendapatkan Kebenaran!     '
-echo '                        t.me/rudy@3126    '
+echo '                        t.me/rudy3126     '
 sleep 20
 exit 0
 fi
@@ -76,38 +77,38 @@ clear
 echo '============================================='
 echo '        Installing SSH & OPENVPN '
 echo '============================================='
-wget https://raw.githubusercontent.com/leadvpn/lead/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/leadvpn/lead/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 echo '============================================='
 echo '        Installing SSTP '
 echo '============================================='
-wget https://raw.githubusercontent.com/leadvpn/lead/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+wget https://raw.githubusercontent.com/leadvpn/lead/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 echo '============================================='
 echo '        Installing ssr '
 echo '============================================='
-wget https://raw.githubusercontent.com/leadvpn/lead/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget https://raw.githubusercontent.com/leadvpn/lead/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
 echo '============================================='
 echo '        Installing shadowsocksobfs '
 echo '============================================='
-wget https://raw.githubusercontent.com/leadvpn/lead/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+wget https://raw.githubusercontent.com/leadvpn/lead/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 echo '============================================='
 echo '        Installing WIREGUARD '
 echo '============================================='
-wget https://raw.githubusercontent.com/leadvpn/lead/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+wget https://raw.githubusercontent.com/leadvpn/lead/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 echo '============================================='
 echo '        Installing V2RAY '
 echo '============================================='
-wget https://raw.githubusercontent.com/leadvpn/lead/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://raw.githubusercontent.com/leadvpn/lead/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 echo '============================================='
 echo '        Installing ipsec '
 echo '============================================='
-wget https://raw.githubusercontent.com/leadvpn/lead/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget https://raw.githubusercontent.com/leadvpn/lead/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 echo '        Installing XRAY '
 echo '============================================='
-wget https://raw.githubusercontent.com/leadvpn/lead/install-xray.sh && chmod +x install-xray.sh && screen -S v2ray ./install-xray.sh
+wget https://raw.githubusercontent.com/leadvpn/lead/main/install-xray.sh && chmod +x install-xray.sh && screen -S v2ray ./install-xray.sh
 echo '============================================='
 echo '        Installing Websocket '
 echo '============================================='
-wget https://raw.githubusercontent.com/leadvpn/lead/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/leadvpn/lead/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 
 
 rm -f /root/ssh-vpn.sh
@@ -122,7 +123,7 @@ rm -f /root/set-br.sh
 echo "1.1" > /home/ver
 
 echo "echo '              AutoScript By LEADVPN             '" >> .profile
-echo "echo '              TELEGRAM : @rudy3126            '" >> .profile
+echo "echo '              TELEGRAM : @sam_sfx            '" >> .profile
 echo "echo ''" >> .profile
 echo "echo '       Sila Type: 'menu', untuk ke menu utama      '" >> .profile
 echo "echo ''" >> .profile
