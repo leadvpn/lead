@@ -1,8 +1,7 @@
 #!/bin/bash
-
 clear
 echo -e "================================================="
-echo -e "#         Premium Auto Script By CTechDidik         #"
+echo -e "#         Premium Auto Script By LEADVPN        #"
 echo -e "#-----------------------------------------------#"
 echo '     _     _____    _    ______     ______  _   _  '
 echo '    | |   | ____|  / \  |  _ \ \   / /  _ \| \ | | '
@@ -13,5 +12,5 @@ echo '         	        UNLIMITED SEGALANYA! '
 echo ''
 echo '         ......................................   '
 echo '                      Build in 2021               '
-echo '                  TELEGRAM : @sam_sfx          '
+echo '                  TELEGRAM : @rudy3126         '
 echo -e "================================================="

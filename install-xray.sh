@@ -18,7 +18,7 @@ apt install python3 -y
 mkdir -p /usr/local/ctechdidik/
 
 # // Installation XRay Core
-wget -q -O /usr/local/ctechdidik/xray-mini "https://raw.githubusercontent.com/syfqsamvpn/samvpn/main/xray-mini" 
+wget -q -O /usr/local/ctechdidik/xray-mini "https://raw.githubusercontent.com/leadvpn/lead/main/xray-mini" 
 chmod +x /usr/local/ctechdidik/xray-mini
 
 # // Make XRay Mini Root Folder
@@ -177,9 +177,9 @@ systemctl enable xray-mini@vless-splice
 systemctl start xray-mini@vless-splice
 
 # // Downloading Menu
-wget -q -O /usr/bin/add-xray "https://raw.githubusercontent.com/syfqsamvpn/samvpn/main/add-xray.sh"
-wget -q -O /usr/bin/del-xray "https://raw.githubusercontent.com/syfqsamvpn/samvpn/main/del-xray.sh"
-wget -q -O /usr/bin/renew-xray "https://raw.githubusercontent.com/syfqsamvpn/samvpn/main/renew-xray.sh"
+wget -q -O /usr/bin/add-xray "https://raw.githubusercontent.com/leadvpn/lead/main/add-xray.sh"
+wget -q -O /usr/bin/del-xray "https://raw.githubusercontent.com/leadvpn/lead/main/del-xray.sh"
+wget -q -O /usr/bin/renew-xray "https://raw.githubusercontent.com/leadvpn/lead/main/renew-xray.sh"
 chmod +x /usr/bin/add-xray
 chmod +x /usr/bin/del-xray
 chmod +x /usr/bin/renew-xray

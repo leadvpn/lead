@@ -44,6 +44,6 @@ Username     : $VPN_USER
 Password     : $VPN_PASSWORD
 Expired ON   : $exp
 =================================
-     Mod By SAMVPN
+     Mod By LEADVPN
 =================================
 EOF
